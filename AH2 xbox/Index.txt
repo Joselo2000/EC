@@ -1,0 +1,24 @@
+<doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Etiquetas semanticas HTML5</title>
+</head>    
+<body>
+    <header>
+        <a href="https://www.microsoft.com/es-mx/">
+            <img src="Microsoft.png" width="100" alt="Logo Microsoft">
+        </a>
+
+        <a href="https://www.xbox.com/es-MX/?xr=mebarnav">
+            <img src="XBOX.png" width="100" alt="Logo de Xbox">
+        </a>
+        
+
+    </header>
+</body>
+
+
+
+</html>
+</doctype>

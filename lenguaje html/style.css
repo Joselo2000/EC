@@ -1,0 +1,54 @@
+.cont-flex{
+    display: flex;
+    border: 2px solid green;
+    justify-content: space-between;
+}
+.enlaces{
+    display: flex;
+    border: solid yellow;
+    justify-content: space-around
+}
+.encabezado1{
+    display: flex;
+    justify-content: center;
+}
+main{
+    flex-grow: 4;
+    border: 2px dotted blue;
+}
+.apartado{
+    display: flex;
+    justify-content: center;
+}
+.textoapartado{
+    display: flex;
+    justify-content: center;
+}
+.opcion1{
+    display: flex;
+    justify-content: center;
+}
+.opcion2{
+    display: flex;
+    justify-content: center;
+}
+.opcion3{
+    display: flex;
+    justify-content: center;
+}
+.opcion4{
+    display: flex;
+    justify-content: center;
+}
+.enviar{
+    display: flex;
+    justify-content: center;
+}
+aside{
+    flex-grow: 1;
+    border: 2px dotted red;
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+}

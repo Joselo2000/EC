@@ -1,0 +1,92 @@
+.enlaces{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 112, 27);
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding-right: 50px; 
+}
+.h1{
+    width: 950px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(10, 95px);
+    grid-template-rows: 42px 42px 42px 42px 42px 42px;
+    /*justify-items: center;
+    align-items: center;*/
+    background-image: url("paisaje_CDMX.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aprende{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    grid-column: 2/6;
+    grid-row: 2/3;
+    position: relative;
+}
+
+.aprende::before{
+    content: "";
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero-vector.svg");
+    background-repeat: no-repeat;
+} 
+.escuelas{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+   
+}
+
+.codigo{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    font-size: 41px;
+    grid-column: 4/7;
+    grid-row: 3/5;
+    
+}
+
+.cdmx{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    grid-column: 4/6;
+    grid-row: 5/6;
+   
+}
+.h2{
+    color: rgba(201, 172, 9, 0.719);
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+    display: flex;
+    justify-content: center;
+}
+.p1{
+    color: rgb(34, 100, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.p2{
+    color: rgb(34, 100, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
